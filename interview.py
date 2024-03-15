@@ -220,3 +220,74 @@ print(arr[0][0], arr[3][3])
 # arr = [[0] * 4] * 4
 
 
+
+
+Strings
+
+# Strings are similar to arrays
+s = "abc"
+print(s[0:2])
+
+# But they are immutable
+# s[0] = "A"
+
+# So this creates a new string
+s += "def"
+print(s)
+
+# Valid numeric strings can be converted
+print(int("123") + int("123"))
+
+# And numbers can be converted to strings
+print(str(123) + str(123))
+
+# In rare cases you may need the ASCII value of a char
+print(ord("a"))
+print(ord("b"))
+
+# Combine a list of strings (with an empty string delimitor)
+strings = ["ab", "cd", "ef"]
+print("".join(strings))
+
+Queues
+
+# Queues (double ended queue)
+from collections import deque
+
+queue = deque()
+queue.append(1)
+queue.append(2)
+print(queue)
+
+queue.popleft()
+print(queue)
+
+queue.appendleft(1)
+print(queue)
+
+queue.pop()
+print(queue)
+
+HashSets
+
+# HashSet
+mySet = set()
+
+mySet.add(1)
+mySet.add(2)
+print(mySet)
+print(len(mySet))
+
+print(1 in mySet)
+print(2 in mySet)
+print(3 in mySet)
+
+mySet.remove(2)
+print(2 in mySet)
+
+# list to set
+print(set([1, 2, 3]))
+
+# Set comprehension
+mySet = { i for i in range(5) }
+print(mySet)
