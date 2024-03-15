@@ -1,4 +1,3 @@
-
 Python for Coding Interviews
 Introduction
 
@@ -26,4 +25,4 @@ Usage
 Each code snippet is self-contained and can be run independently. You can copy the relevant snippets into your Python environment or IDE to experiment with them further.
 Contributions
 
-Contributions to this repository are welcome! If you have additional Python snippets or impro
+Contributions to this repository are welcome! If you have additional Python snippets or improvements to existing ones, feel free to submit a pull request.
